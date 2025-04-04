@@ -1,9 +1,10 @@
 import React from "react";
-import heroImg from "../images/heroImg.png"; // Adjust the path accordingly
+import heroImg from "../images/heroImg.png"; 
+import "./Projects.css"
 
 const ProjectCard = ({ title, main }) => {
   return (
-    <div className="p-3 md:p-6 flex flex-col w-96 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl transition-transform duration-300 hover:scale-110">
+    <div  id="cardDiv" className="p-3 md:p-6 flex flex-col w-96 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl transition-transform duration-300 hover:scale-110">
       <img className="p-4" src={heroImg} alt="" />
       <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal">
         {title}
