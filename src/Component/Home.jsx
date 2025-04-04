@@ -12,7 +12,7 @@ const Home = () => {
  
   return (
     <div className="text-white flex w-full items-center p-10 md:p-15  gap-4 md:flex-col flex-col">
-       <div className=" w-2/4 flex justify-center items-center shadow-inner">
+       <div id="imgDiv"className=" w-2/4 flex flex-wrap justify-center items-center shadow-inner border-2 border-orange-500 ">
         <img src={profile} alt=""  className=" rounded-full shadow-xl" id="image"/>
       </div>
       <div className=" md:w-2/4 md:pt-0  flex-col justify-items-center">
