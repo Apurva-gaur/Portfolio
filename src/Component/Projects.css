@@ -1,12 +1,18 @@
-@media (min-width: 768px) and (max-width: 1370px)  {
+@media (min-width: 1233px) and (max-width: 1370px)  {
     #cardDiv {
         width: 30%;
     
     }
 }
+@media (min-width:300px) and (max-width:854px) {
+    #cardDiv {
+        width:100%;    
+    
+    }
 
+}
 
-@media (max-width: 1232px) {
+@media (min-width:854px) and  (max-width: 1232px) {
     #cardDiv {
         width: 47%;
         
@@ -14,11 +20,11 @@
     }
 
 }
-@media (max-width: 855px) {
+/* @media (max-width: 855px) {
     #cardDiv {
         width: 48%;
         
     
     }
 
-}
+} */
