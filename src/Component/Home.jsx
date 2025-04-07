@@ -23,16 +23,22 @@ const Home = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
           doloremque?
         </p>
-         <div className="border-2 border-orange-600 flex justify-center items-center md:flex-row flex-col">  
+         <div className=" flex justify-center items-center  md:flex-row flex-col pb-2"> 
+          <div className="">
           <button className="mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
           Contact Me
         </button>
+        </div> 
+        <div className="px-2">
         <button
           className=" ml-5 mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]" 
         >
          <a href={heroImg} download>Download Resume</a>
 
-        </button></div>
+        </button>
+        </div>
+         
+      </div>
       
       </div>
      
