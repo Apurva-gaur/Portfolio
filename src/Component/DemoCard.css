@@ -28,4 +28,44 @@
   #image-container:hover .info {
     opacity: 1;
   }
+  @media (min-width:414px) and  (max-width: 554px) {
+    #image-container {
+        width: 48%; 
+        height: 200px;   
+    
+    }
+  
+  }
+  @media (min-width:555px) and  (max-width: 1232px) {
+    #image-container {
+        width: 48%;
+        height: 280px;
+
+    
+    }
+  
+  }
+  
+@media (min-width:1232px) and  (max-width: 1600px) {
+  #image-container {
+      width: 32%;
+    
+  }
+
+}
+/* @media (min-width:1233px) and  (max-width: 1500px) {
+  #image-container {
+      width: 47%;    
+  
+  }
+
+} */
+@media   (max-width: 478px) {
+  #image-container {
+      width: 47%;
+      height: 150px;    
+  
+  }
+
+}
   

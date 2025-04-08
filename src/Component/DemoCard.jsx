@@ -1,7 +1,7 @@
 import React from 'react'
 import  './DemoCard.css'
 
-import hero from "../images/heroImg.png"; 
+import hero from "../images/E-Com.jpg"; 
 
 
 
@@ -26,7 +26,7 @@ function DemoCard({title,Demo,main}) {
     rel="noopener noreferrer"
     className="md:mt-10 text-white p-3 rounded-full  hover:opacity-85 hover:scale-110 transition-transform "
   >
-  <i className="fas fa-link text-3xl md:text-5xl"></i>
+  <i className="fas fa-link text-3xl md:text-3xl"></i>
   </a>
 
   {/* GitHub Link */}
@@ -36,7 +36,7 @@ function DemoCard({title,Demo,main}) {
     rel="noopener noreferrer"
     className="md:mt-10 text-white p-3 rounded-full  hover:opacity-85 hover:scale-110 transition-transform "
   >
-    <i className="fab fa-github text-lg md:text-4xl"></i>
+    <i className="fab fa-github text-lg md:text-3xl"></i>
   </a>
 </div>
 

@@ -21,6 +21,14 @@
 
 }
 
+@media (min-width:854px) and  (max-width: 1232px) {
+    #cardDiv {
+        width: 47%;
+        
+    
+    }
+
+}
 
 
 /* @media (max-width: 855px) {

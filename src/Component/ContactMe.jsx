@@ -2,8 +2,8 @@ import React from "react";
 
 const ContactMe = () => {
   return (
-    <section id="Footer" className="bg-black min-h-screen flex items-center justify-center p-6 md:flex-row flex-col">
-      <div className="bg-gray-900 shadow-lg rounded-xl p-8 flex flex-col md:flex-row gap-8 md:w-1/3 w-full ">
+    <section id="Footer" className="bg-black  flex items-center justify-center p-6 md:flex-row flex-col ">
+      <div className="bg-gray-900 shadow-lg rounded-xl p-8 flex flex-col md:flex-row gap-8 md:w-1/3 w-full my-8 ">
         {/* Contact Form Section */}
         <div className="w-full md:w-full">
           <h2 className="text-3xl font-bold text-white mb-4">Contact Me</h2>
