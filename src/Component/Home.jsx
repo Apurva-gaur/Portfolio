@@ -1,10 +1,10 @@
 import React from "react";
-import heroImg from "../images/heroImg.png"; // Adjust the path accordingly
-import profile from "../images/profile.jpeg"; // Adjust the path accordingly
+import heroImg from "../images/heroImg.png"; 
+import profile from "../images/profile.jpeg";
 import './home.css'
 import ApurvaResume from '../images/ApurvaResume(RPA..).pdf'
-import TextChange from "./TextChange"; // Adjust the path accordingly
-import profile2 from "../images/profile2.jpeg"; // Adjust the path accordingly
+import TextChange from "./TextChange";
+import profile2 from "../images/profile2.jpeg";
 
 
 
@@ -25,8 +25,7 @@ const Home = () => {
          <TextChange></TextChange>
         </h1>
         <p className=" mt-1 text-xl md:text-2xl tracking-tight text-center ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
-          doloremque?
+        I'm a front-end software engineer skilled in HTML, CSS, and React.js, focused on building clean, responsive user interfaces. I enjoy turning ideas into seamless digital experiences with performance and usability in mind. Always exploring new tools and trends to stay sharp and creative in the ever-evolving web world
         </p>
          <div className=" flex justify-center items-center  md:flex-row flex-col pb-2"> 
           <div className="">

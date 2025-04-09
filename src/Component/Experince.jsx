@@ -31,7 +31,7 @@ function Experince() {
 //       </div>
 //     </div>
 //   </div>
-<div class="bg-[#0c0e19] py-20 px-4 mx-20 my-20">
+<div class="bg-[#0c0e19] py-20 px-4 md:mx-20 mt-16">
   <div class="max-w-7xl mx-auto text-white">
     <div class="flex flex-col lg:flex-row gap-16">
       
