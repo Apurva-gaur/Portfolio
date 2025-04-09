@@ -3,7 +3,9 @@
 Welcome to my portfolio website built using React.js, Vite, and Tailwind CSS! This website showcases my skills, projects, and services in a visually appealing and interactive manner
 ## Features
 -Beautiful Sections: Includes header, hero, Experience,Education, projects, Testimonials and footer.
+
 -Cool Gradients: Enhances visuals with stylish gradients using Tailwind CSS for cards, buttons, etc.
+
 -Responsive: Ensures seamless functionality and aesthetics across all devices
 
 ## Expanding the ESLint configuration
