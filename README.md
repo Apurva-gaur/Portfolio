@@ -13,6 +13,15 @@ Welcome to my portfolio website built using React.js, Vite, and Tailwind CSS! Th
 * Vite: A next-generation frontend tooling.
 * Tailwind CSS: A utility-first CSS framework for rapid UI development
 
+## Getting Started
+   To run this project locally, follow these steps:
+
+   Prerequisites
+   Ensure you have the following software installed on your machine:
+
+   * Node.js
+   * npm or yarn
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
