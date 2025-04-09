@@ -1,11 +1,10 @@
 # Portfolio
 
 Welcome to my portfolio website built using React.js, Vite, and Tailwind CSS! This website showcases my skills, projects, and services in a visually appealing and interactive manner
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#Features
+-Beautiful Sections: Includes header, hero, Experience,Education, projects, Testimonials and footer.
+-Cool Gradients: Enhances visuals with stylish gradients using Tailwind CSS for cards, buttons, etc.
+-Responsive: Ensures seamless functionality and aesthetics across all devices
 
 ## Expanding the ESLint configuration
 
