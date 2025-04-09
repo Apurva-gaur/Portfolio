@@ -1,7 +1,7 @@
 # Portfolio
 
 Welcome to my portfolio website built using React.js, Vite, and Tailwind CSS! This website showcases my skills, projects, and education in a visually appealing and interactive manner.
-DEMO url=(https://portfolio-git-main-apurvasinghgaur225-gmailcoms-projects.vercel.app/)
+DEMO url= https://portfolio-git-main-apurvasinghgaur225-gmailcoms-projects.vercel.app/
 ## Features
 -Beautiful Sections: Includes header, hero, Experience,Education, projects, Testimonials and footer.
 
