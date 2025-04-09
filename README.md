@@ -1,6 +1,6 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio website built using React.js, Vite, and Tailwind CSS! This website showcases my skills, projects, and services in a visually appealing and interactive manner
 
 Currently, two official plugins are available:
 
