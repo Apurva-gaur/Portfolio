@@ -1,6 +1,6 @@
 # Portfolio
 
-Welcome to my portfolio website built using React.js, Vite, and Tailwind CSS! This website showcases my skills, projects, and services in a visually appealing and interactive manner
+Welcome to my portfolio website built using React.js, Vite, and Tailwind CSS! This website showcases my skills, projects, and education in a visually appealing and interactive manner.
 ## Features
 -Beautiful Sections: Includes header, hero, Experience,Education, projects, Testimonials and footer.
 
