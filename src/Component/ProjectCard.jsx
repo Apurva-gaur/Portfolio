@@ -1,6 +1,8 @@
 import React from "react";
 import heroImg from "../images/heroImg.png"; 
 import "./Projects.css"
+import "./Global.css"
+
 import youtube from "../images/youtube2.png"
 
 const ProjectCard = ({ title, main,Demo }) => {

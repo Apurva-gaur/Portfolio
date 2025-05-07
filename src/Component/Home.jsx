@@ -24,7 +24,7 @@ const Home = () => {
         <h1 className="text-3xl md:text-6xl font-bold flex leading-normal tracking-tighter shadow-xl text-center ">
          <TextChange></TextChange>
         </h1>
-        <p className=" mt-1 text-xl md:text-2xl tracking-tight text-center ">
+        <p className=" mt-1 text-xl md:text-2xl tracking-tight text-center mt-5">
         I'm a front-end software engineer skilled in HTML, CSS, and React.js, focused on building clean, responsive user interfaces. I enjoy turning ideas into seamless digital experiences with performance and usability in mind. Always exploring new tools and trends to stay sharp and creative in the ever-evolving web world
         </p>
          <div className=" flex justify-center items-center  md:flex-row flex-col pb-2"> 

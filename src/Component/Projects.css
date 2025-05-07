@@ -1,11 +1,19 @@
+/* @media (min-width: 1370px) {
+    #image-container {
+        width: 70%;
+        
+    
+    }
+
+}
 @media (min-width: 1233px) and (max-width: 1370px)  {
-    #cardDiv {
-        width: 30%;
+    #image-container {
+        width: 50%;
     
     }
 }
 @media (min-width:300px) and (max-width:854px) {
-    #cardDiv {
+    #image-container {
         width:100%;    
     
     }
@@ -13,7 +21,7 @@
 }
 
 @media (min-width:854px) and  (max-width: 1232px) {
-    #cardDiv {
+    #image-container {
         width: 47%;
         
     
@@ -21,21 +29,88 @@
 
 }
 
-@media (min-width:854px) and  (max-width: 1232px) {
-    #cardDiv {
+ */
+ /* Default for very small screens (mobile-first approach) */
+#image-container{
+    width: 100%;  /* Full width for small screens */
+    height: 200px;  /* Adjust height as needed */
+    margin-top: 0;  /* Fix any unwanted gap above */
+    margin-bottom: 0;  /* Fix any unwanted gap below */
+}
+@media   (max-width: 478px) {
+    #image-container {
         width: 47%;
-        
+        height: 150px;    
     
     }
+  
+  }
+  
+  @media (min-width: 1600px) and (max-width: 1900px) {
+    #image-container {
+        width: 49% !important;  /* Wider layout */
+        margin-top: 0 !important;  /* Fix any unwanted gap above */
+    }
 
+    #outerDiv {
+        gap: 22px;  /* Adjust gap between items */
+    }
 }
 
-
-/* @media (max-width: 855px) {
-    #cardDiv {
+@media (min-width:414px) and  (max-width: 474px) {
+    #image-container {
+        width: 30%; 
+        height: 150px;   
+    
+    }
+  
+  }
+/* Medium screens (tablets and smaller laptops) */
+@media (min-width:475px) and  (max-width: 554px) {
+    #image-container {
+        width: 48%; 
+        height: 200px;   
+    
+    }
+  
+  }
+  @media (min-width:555px) and  (max-width: 1232px) {
+    #image-container {
         width: 48%;
-        
+        height: 280px;
+
     
     }
+  
+  }
+  @media (min-width:1232px) and  (max-width: 1369px) {
+    #image-container {
+        width: 32%;
+      
+    }
+}
+  
+/* Extra large desktops and larger screens */
+@media (min-width: 1370px) and (max-width: 1599px) {
+    #image-container {
+        width: 48%;  /* Wider layout */
+        margin-top: 0;  /* Fix any unwanted gap above */
+    }
+    #outerDiv {
+        gap: 25px;  /* Adjust gap between items */
+    }
+}
+  /* @media (min-width:1232px) and  (max-width: 1600px) {
+    #image-container {
+        width: 32%;
+      
+    }
+  
+  } */
+  /* Larger tablets to small desktops */
 
-} */
+
+
+
+
+/* Very large screens (1600px and above) */

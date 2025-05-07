@@ -1,5 +1,7 @@
 import React from 'react'
 import  './DemoCard.css'
+import "./Global.css"
+import "./Projects.css"
 
 import hero from "../images/E-Com.jpg"; 
 

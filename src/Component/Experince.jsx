@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Global.css"
 
 function Experince() {
   return (
@@ -31,55 +32,50 @@ function Experince() {
 //       </div>
 //     </div>
 //   </div>
-<div class="bg-[#0c0e19] py-20 px-4 md:mx-20 mt-16">
-  <div class="max-w-7xl mx-auto text-white">
-    <div class="flex flex-col lg:flex-row gap-16">
-      
-      {/* <!-- Experience Section --> */}
-      <div class="flex-1">
-        <h2 class="text-3xl font-bold mb-10 text-center lg:text-left">Experience</h2>
-        <div class="relative border-l-2 border-gray-600 pl-10 space-y-14">
-          <div class="relative">
-            <div class="absolute left-[-33px] top-0 w-8 h-8 rounded-full border-4 border-white bg-[#0c0e19] flex items-center justify-center shadow-sm">
-              <img src="https://logo.clearbit.com/w3villa.com" alt="W3villa" class="w-5 h-5 rounded-full" />
-            </div>
-            <div>
-              <h3 class="text-xl font-semibold">Web Developer Intern</h3>
-              <p class="text-sm text-gray-400 mb-2">W3villa Technologies • Jan 2024 – Mar 2024</p>
-              <ul class="list-disc list-inside text-sm text-gray-300 space-y-1">
-                <li>Developed responsive UI with React and Tailwind.</li>
-                <li>Boosted performance and accessibility scores.</li>
-                <li>Used Git for version control and Agile methodology.</li>
-              </ul>
-            </div>
+// {/* <div class="bg-[#0c0e19] py-20 px-4 md:mx-20 mt-16"> */}
+<div id="experinceDiv" class="bg-[#0c0e19] py-12 px-4 sm:px-6 lg:px-8 sm:mx-0 md:mx-20 lg:mx-20 mt-16 text-white">
+  <div className="max-w-7xl mx-auto">
+    <div className="grid md:grid-cols-2 gap-20">
+
+      {/* Experience Card */}
+      <div>
+        <h2 className="text-3xl font-bold mb-6 text-center md:text-left">Experience</h2>
+        <div className="bg-[#1a1c2b] rounded-2xl p-8 shadow-xl flex flex-col sm:flex-row items-start sm:items-center gap-6 min-h-[250px]">
+          <img
+            src="https://logo.clearbit.com/w3villa.com"
+            alt="W3villa"
+            className="w-[5rem] h-[5rem] rounded-full border-2 border-white object-cover"
+          />
+          <div>
+            <h3 className="text-2xl font-semibold">Web Developer Intern</h3>
+            <p className="text-base text-gray-400 mb-2">W3villa Technologies • Jan 2024 – Mar 2024</p>
+            <ul className="list-disc list-inside text-base text-gray-300 space-y-2">
+              <li>Developed responsive UI with React and Tailwind.</li>
+              <li>Boosted performance and accessibility scores.</li>
+              <li>Used Git for version control and Agile methodology.</li>
+            </ul>
           </div>
-
-       
-
-         
         </div>
       </div>
 
-      {/* <!-- Education Section --> */}
-      <div class="flex-1">
-        <h2 class="text-3xl font-bold mb-10 text-center lg:text-left">Education</h2>
-        <div class="relative border-l-2 border-gray-600 pl-10 space-y-14">
-          <div class="relative">
-            <div class="absolute left-[-33px] top-0 w-8 h-8 rounded-full border-4 border-white bg-[#0c0e19] flex items-center justify-center shadow-sm">
-            <img src="https://upload.wikimedia.org/wikipedia/en/4/4e/AKTU_Logo.png" alt="AKTU" class="w-5 h-5 rounded-full" />
-            </div>
-            <div>
-              <h3 class="text-xl font-semibold">Masters in Computer Application</h3>
-              <p class="text-sm text-gray-400 mb-2">AKTU • 2020 – 2024</p>
-              <ul class="list-disc list-inside text-sm text-gray-300 space-y-1">
-                <li>Focused on web and full-stack development.</li>
-                <li>Projects in React, Node.js, and MongoDB.</li>
-                <li>CGPA: 8.4 / 10</li>
-              </ul>
-            </div>
+      {/* Education Card */}
+      <div>
+        <h2 className="text-3xl font-bold mb-6 text-center md:text-left">Education</h2>
+        <div className="bg-[#1a1c2b] rounded-2xl p-8 shadow-xl flex flex-col sm:flex-row items-start sm:items-center gap-6 min-h-[250px]">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/4/4e/AKTU_Logo.png"
+            alt="AKTU"
+            className="w-[5rem] h-[5rem] rounded-full border-2 border-white object-cover"
+          />
+          <div>
+            <h3 className="text-2xl font-semibold">Masters in Computer Application</h3>
+            <p className="text-base text-gray-400 mb-2">AKTU • 2020 – 2024</p>
+            <ul className="list-disc list-inside text-base text-gray-300 space-y-2">
+              <li>Focused on web and full-stack development.</li>
+              <li>Projects in React, Node.js, and MongoDB.</li>
+              <li>CGPA: 8.4 / 10</li>
+            </ul>
           </div>
-
-        
         </div>
       </div>
 
@@ -89,7 +85,8 @@ function Experince() {
 
 
 
-  
+
+
 
 
   
