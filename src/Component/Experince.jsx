@@ -33,13 +33,13 @@ function Experince() {
 //     </div>
 //   </div>
 // {/* <div class="bg-[#0c0e19] py-20 px-4 md:mx-20 mt-16"> */}
-<div id="experinceDiv" class="bg-[#0c0e19] py-12 px-4 sm:px-6 lg:px-8 sm:mx-0 md:mx-20 lg:mx-20 mt-16 text-white">
+<div id="experinceDiv" class="bg-[#0c0e19] py-12  px-4 sm:px-6 lg:px-8 sm:mx-0 md:mx-20 lg:mx-20 mt-16 text-white ">
   <div className="max-w-7xl mx-auto">
-    <div className="grid md:grid-cols-2 gap-20">
+    <div className="grid md:grid-cols-2 gap-20  py-12">
 
       {/* Experience Card */}
       <div>
-        <h2 className="text-3xl font-bold mb-6 text-center md:text-left">Experience</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center md:text-left ">Experience</h2>
         <div className="bg-[#1a1c2b] rounded-2xl p-8 shadow-xl flex flex-col sm:flex-row items-start sm:items-center gap-6 min-h-[250px]">
           <img
             src="https://logo.clearbit.com/w3villa.com"

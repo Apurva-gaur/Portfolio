@@ -3,7 +3,7 @@ import  './DemoCard.css'
 import "./Global.css"
 import "./Projects.css"
 
-import hero from "../images/E-Com.jpg"; 
+import hero from "../images/code.jpg"; 
 
 
 
