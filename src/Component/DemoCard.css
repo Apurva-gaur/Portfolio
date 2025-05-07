@@ -11,7 +11,20 @@
     height: 100%;
     display: block;
   }
-  
+  #image-container .projectTitle h3{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 10px;
+    opacity: 1;
+
+   
+
+  }
   #image-container .info {
     position: absolute;
     bottom: 0;

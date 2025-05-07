@@ -14,10 +14,13 @@ function DemoCard({title,Demo,main,gitlink}) {
    {/* className="p-4" */}
     <div  id="image-container" className=" flex flex-col w-96 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl transition-transform duration-300 hover:scale-105">
          <img  src={hero} alt="" />
-         <div className="info">
+         <div className="projectTitle">
          <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal">
            {title}
          </h3>
+         </div>
+         <div className="info">
+         
          <p className="px-4 text-sm md:text-md leading-tight py-2">{main}</p>
          {/* updated code */}
          <div className="mt-8 p-2 md:p-4 flex gap-4  items-center justify-center">
