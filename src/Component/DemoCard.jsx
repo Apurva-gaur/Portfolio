@@ -7,7 +7,7 @@ import hero from "../images/E-Com.jpg";
 
 
 
-function DemoCard({title,Demo,main}) {
+function DemoCard({title,Demo,main,gitlink}) {
   return (
    <>
    {/* p-3 md:p-6 */}
@@ -33,8 +33,7 @@ function DemoCard({title,Demo,main}) {
 
   {/* GitHub Link */}
   <a
-    href="https://youtubeclone-apurva.netlify.app/"
-    target="_blank"
+    href={gitlink}
     rel="noopener noreferrer"
     className="md:mt-10 text-white p-3 rounded-full  hover:opacity-85 hover:scale-110 transition-transform "
   >

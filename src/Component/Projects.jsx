@@ -32,23 +32,23 @@ const Projects = () => {
         <DemoCard
         title="Youtube clone"
         main="Built a YouTube Clone using React, Node.js, and RapidAPI to fetch and display video content with search and playback functionality"
-        Demo="https://youtubeclone-apurva.netlify.app/"></DemoCard>
+        Demo="https://youtubeclone-apurva.netlify.app/" gitlink="https://youtubeclone-apurva.netlify.app/"></DemoCard>
         <DemoCard
         title="portfolio"
         main="this is a bloggin website created in next js and used some component library used some component library"
-        Demo="https://youtubeclone-apurva.netlify.app/"></DemoCard>
+        Demo="https://portfolio-gamma-topaz-40.vercel.app/" gitlink="https://github.com/Apurva-gaur/Portfolio"></DemoCard>
          <DemoCard
         title="ecommerce"
         main="An e-commerce web app built with React.js and Context API for state management, featuring product listings, a shopping cart, and responsive design"
-        Demo="https://youtubeclone-apurva.netlify.app/"></DemoCard>
+        Demo="https://imaginative-faloodeh-b704c4.netlify.app/" gitlink="https://github.com/Apurva-gaur/E-commerce"></DemoCard>
          <DemoCard
         title="chrome extension"
         main="A Chrome Pomodoro Extension with start, stop, and reset timer features to help manage focus sessions efficiently"
-        Demo="https://youtubeclone-apurva.netlify.app/"></DemoCard>
+        Demo="https://youtubeclone-apurva.netlify.app/" gitlink="https://github.com/Apurva-gaur/TaskManager"></DemoCard>
           <DemoCard
         title="todo list"
         main="A simple To-Do List app built with React.js, allowing users to add, edit, and delete tasks with a clean and responsive interface"
-        Demo="https://youtubeclone-apurva.netlify.app/"></DemoCard>
+        Demo="https://github.com/Apurva-gaur/TaskManager" gitlink="https://github.com/Apurva-gaur/TaskManager"></DemoCard>
       </div>
       
     </div>
