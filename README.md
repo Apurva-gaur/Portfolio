@@ -1,12 +1,26 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio website built using React.js, Vite, and Tailwind CSS! This website showcases my skills, projects, and education in a visually appealing and interactive manner.
+DEMO url= https://portfolio-git-main-apurvasinghgaur225-gmailcoms-projects.vercel.app/
+## Features
+-Beautiful Sections: Includes header, hero, Experience,Education, projects, Testimonials and footer.
 
-Currently, two official plugins are available:
+-Cool Gradients: Enhances visuals with stylish gradients using Tailwind CSS for cards, buttons, etc.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Responsive: Ensures seamless functionality and aesthetics across all devices
 
-## Expanding the ESLint configuration
+## Technologies Used
+* React.js: A JavaScript library for building user interfaces.
+* Vite: A next-generation frontend tooling.
+* Tailwind CSS: A utility-first CSS framework for rapid UI development.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+   To run this project locally, follow these steps:
+
+   Prerequisites
+   Ensure you have the following software installed on your machine:
+
+   * Node.js
+   * npm or yarn
+
+
