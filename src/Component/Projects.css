@@ -46,9 +46,10 @@
   
   }
   
-  @media (min-width: 1600px) and (max-width: 1900px) {
+  @media (min-width: 1600px) and (max-width: 2000px) {
     #image-container {
-        width: 49% !important;  /* Wider layout */
+        width: 32% !important;  /* Wider layout */
+        height: 250px; 
         margin-top: 0 !important;  /* Fix any unwanted gap above */
     }
 
